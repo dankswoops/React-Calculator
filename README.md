@@ -8,3 +8,5 @@ Fixed the focus issue by removing ",.calculator-grid>button:focus" from the CSS
 Fixed the decimal from breaking the code when clicked before a number by adding- 
 
 "?" to "if (payload.digit==="."&&state.currentOperand?.includes(".")){return state}"
+
+Missing 'node_modules' and npm start
